@@ -292,3 +292,19 @@ header {
 .card-content {
   color: var(--blue-300);
 }
+
+
+.github-label {
+  background: center / contain no-repeat url('./assets/logo.svg'),
+    linear-gradient(25turn,gray, skyblue, gray);
+  height: 64px;
+  width: 64px;
+  opacity: 0.5;
+  position: absolute;
+  bottom: 32px;
+  left: 0px;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 0px 10px 25px -15px;
+  color: black;
+
+}
