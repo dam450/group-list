@@ -212,7 +212,7 @@ header {
   height: 100%;
   padding: 20px;
 
-  overflow-y: auto;
+  overflow-y: overlay;
   overflow-x: hidden;
 }
 
@@ -301,10 +301,14 @@ header {
   width: 64px;
   opacity: 0.5;
   position: absolute;
-  bottom: 32px;
-  left: 0px;
+  bottom: 10%;
+  left: -18px;
   border-radius: 0 10px 10px 0;
   box-shadow: 0px 10px 25px -15px;
   color: black;
+  transition: left 300ms ease-in-out;
+}
 
+.github-label:hover {
+  left: 0px;
 }
